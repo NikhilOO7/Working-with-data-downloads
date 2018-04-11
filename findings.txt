@@ -1,0 +1,11 @@
+print (" Total number of girls {}".format(data["TOT_ENR_F"].sum()))
+
+print (" Total number of boys {}".format(data["TOT_ENR_M"].sum()))
+
+print ("Ratio of girls in SCH {}".format((20499/data["TOT_ENR_F"].sum())*100))
+
+print ("Ratio of boys in SCH {}".format((21500/data["TOT_ENR_M"].sum())*100))
+
+print ("Ratio of girls in JJ {}".format((77/data["TOT_ENR_F"].sum())*100))
+
+print ("Ratio of boys in JJ {}".format((427/data["TOT_ENR_M"].sum())*100))
